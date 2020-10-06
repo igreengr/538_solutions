@@ -10,7 +10,7 @@ for a in range(runs):
         if picknum == 0:
             bag_len = len(bag) - 1
             pick = randint(0, bag_len)
-            first_pick = bag.pop(picknum)
+            first_pick = bag.pop(pick)
             picknum += 1
             prev_pick = first_pick
         else:
